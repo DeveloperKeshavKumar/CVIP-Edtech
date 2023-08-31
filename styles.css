@@ -167,6 +167,64 @@ li:hover{
     transform: translateY(-10px);
 }
 
+/* Reviews Section */
+
+.reviews{
+    font-size: 20px;
+    text-align: center;
+}
+
+.carousel{
+    width:80%;
+    margin: 70px auto  50px;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.user-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 20px;
+}
+.user-pic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.content {
+    flex: 1;
+}
+
+.thought {
+    height: 60%;
+}
+
+.user-name, .user-batch {
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact{
+    text-align: center;
+}
+.contact a{
+    font-size: 2rem ;
+    text-decoration: none;
+    color: #14213d;
+}
+.contact a:hover{
+    color: #fca311;
+}
 
 /* Footer Section */
 footer{
