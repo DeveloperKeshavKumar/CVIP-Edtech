@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #e5e5e5;
+    background: #fff;
     overflow-x: hidden;
 }
 
@@ -106,11 +106,17 @@ li:hover{
     letter-spacing: .6px;
     font-weight: 600;
     font-size: 1rem;
-    padding: .7rem .9rem;
+    padding: 12px 20px;
     border: 2px solid transparent;
     border-radius: 15px;
     color: #000;
     background: #fca311;
+}
+
+.heading button:hover{
+    background: #e5e5e5;
+    color: #14213d;
+    cursor: pointer;
 }
 
 .hero-img{
@@ -126,6 +132,8 @@ li:hover{
 /* Courses Section */
 
 .courses{
+    background-color: #e5e5e5;
+    padding-top: 50px;
     font-size: 20px;
     padding-bottom: 70px;
     text-align: center;
@@ -150,16 +158,27 @@ li:hover{
 }
 .courses img{
     margin-top: 1rem;
-    width: 60%;
-    height:60%;
+    width: 55%;
+    height:55%;
     object-fit: cover;
     border-radius: 5px ;
 }
+.courses p{
+    width:70%;
+    margin:0 auto 10px;
+    padding: 10px 0 ;
+}
 .courses .read{
+    background: #fca311;
     text-decoration: none;
     color: white;
+    font-size: 1rem;
+    padding: 10px 25px;
+    border-radius: 15px;
+
 }
 .courses .read:hover{
+    background: #e5e5e5;
     color: #fca311;
 }
 
@@ -170,13 +189,15 @@ li:hover{
 /* Reviews Section */
 
 .reviews{
+    padding-top: 50px;
     font-size: 20px;
     text-align: center;
 }
 
 .carousel{
     width:80%;
-    margin: 70px auto  50px;
+    margin: 0 auto ;
+    padding: 50px;
 }
 
 .slide {
@@ -185,6 +206,7 @@ li:hover{
     padding: 20px;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .user-pic {
@@ -215,12 +237,36 @@ li:hover{
 
 /* Contact Section */
 .contact{
+    background-color: #e5e5e5 ;
+    padding: 50px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.contact ul{
+    padding:20px 0;
+    display: flex;
+    width:60%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .contact a{
     font-size: 2rem ;
     text-decoration: none;
     color: #14213d;
+}
+
+.contact a span{
+    font-size: 1.2rem;
+    color: #14213d;
+}
+
+.contact a span:hover{
+    text-decoration: solid underline #fca311;
 }
 .contact a:hover{
     color: #fca311;
